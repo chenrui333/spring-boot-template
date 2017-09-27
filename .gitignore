@@ -1,0 +1,22 @@
+# Java class files
+*.class
+
+# generated files
+bin/
+gen/
+generated
+target/
+classes/
+minified
+
+# Intellij project files
+*.iml
+*.ipr
+*.iws
+.idea/
+
+#Gradle
+.gradletasknamecache
+.gradle/
+build/
+bin/
