@@ -2,6 +2,7 @@
 *.class
 
 # generated files
+out/
 bin/
 gen/
 generated
@@ -15,8 +16,16 @@ minified
 *.iws
 .idea/
 
-#Gradle
+# eclipse project files
+.settings/
+.classpath
+.project
+
+# Gradle
 .gradletasknamecache
 .gradle/
 build/
 bin/
+
+# misc
+.DS_Store
