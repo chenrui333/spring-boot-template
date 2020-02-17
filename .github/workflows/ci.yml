@@ -30,8 +30,6 @@ jobs:
           key: ${{ runner.os }}-gradle-wrapper${{ hashFiles('**/*.gradle') }}
           restore-keys: |
             ${{ runner.os }}-gradle-wrapper
-      - name: Setup Gradle
-        run: ./gradlew
       - uses: actions/setup-java@v1
         with:
           java-version: '1.8'
