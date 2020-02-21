@@ -18,6 +18,10 @@ jobs:
   build:
     name: build
     runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        # test against latest update of each major java version
+        java: [8, 9, 13]
     steps:
       - uses: actions/checkout@v2
       - name: Cache Gradle Cache
@@ -38,7 +42,7 @@ jobs:
             ${{ runner.os }}-gradle-wrapper
       - uses: actions/setup-java@v1
         with:
-          java-version: '1.8'
+          java-version: ${{ matrix.java }}
       - name: Run build
         run: |
           ./gradlew clean build
