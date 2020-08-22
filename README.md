@@ -1,4 +1,4 @@
-# SPRING BOOT BOILERPLATE
+# Spring Boot Template
 
 ![CI](https://github.com/chenrui333/spring-boot-template/workflows/ci/badge.svg)
 [![Build Status](https://travis-ci.org/chenrui333/spring-boot-template.svg?branch=master)](https://travis-ci.org/chenrui333/spring-boot-template)
