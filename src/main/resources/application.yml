@@ -1,3 +1,7 @@
 server:
+  ssl:
+    key-store: classpath:localhost.p12
+    key-store-type: pkcs12
+    key-store-password: changeit
   context-path: /
   port: 9000
