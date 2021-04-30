@@ -4,12 +4,5 @@ updates:
   directory: "/"
   schedule:
     interval: daily
-  open-pull-requests-limit: 20
-  ignore:
-  - dependency-name: org.springframework.boot
-    versions:
-    - 2.4.2
-    - 2.4.3
-    - 2.4.4
   commit-message:
     prefix: chore(deps)
