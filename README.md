@@ -5,6 +5,12 @@
 [![codecov](https://codecov.io/gh/chenrui333/spring-boot-template/branch/master/graph/badge.svg?token=PmeCqKHbTR)](https://codecov.io/gh/chenrui333/spring-boot-template)
 
 
+## Dependencies
+
+- Java 8
+- Gradle 7.2
+- Spring Boot 2.5.4
+
 ## How to run and test the app
 
 - `./gradlew bootRun`
