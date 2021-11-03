@@ -6,6 +6,7 @@ plugins {
 
 apply plugin: 'java'
 
+
 jar {
   enabled = true
 }
@@ -16,6 +17,10 @@ repositories {
 
 sourceCompatibility = 1.8
 targetCompatibility = 1.8
+
+dependencyLocking {
+  lockAllConfigurations()
+}
 
 dependencies {
   implementation('org.springframework.boot:spring-boot-starter-data-rest')
