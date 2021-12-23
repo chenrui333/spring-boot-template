@@ -8,7 +8,7 @@
 ## Dependencies
 
 - Java 8
-- Gradle 7.2
+- Gradle 7.3.2
 - Spring Boot 2.5.6
 
 ## How to run and test the app
