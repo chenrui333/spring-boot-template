@@ -1,8 +1,8 @@
 # Spring Boot Template
 
 ![CI](https://github.com/chenrui333/spring-boot-template/workflows/ci/badge.svg)
-[![Build Status](https://travis-ci.org/chenrui333/spring-boot-template.svg?branch=master)](https://travis-ci.org/chenrui333/spring-boot-template)
-[![codecov](https://codecov.io/gh/chenrui333/spring-boot-template/branch/master/graph/badge.svg?token=PmeCqKHbTR)](https://codecov.io/gh/chenrui333/spring-boot-template)
+[![Build Status](https://travis-ci.org/chenrui333/spring-boot-template.svg?branch=main)](https://travis-ci.org/chenrui333/spring-boot-template)
+[![codecov](https://codecov.io/gh/chenrui333/spring-boot-template/branch/main/graph/badge.svg?token=PmeCqKHbTR)](https://codecov.io/gh/chenrui333/spring-boot-template)
 
 
 ## Dependencies
