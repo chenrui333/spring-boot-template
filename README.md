@@ -14,3 +14,7 @@
 
 - `./gradlew bootRun`
 - `curl http://localhost:9000/hello`
+
+## build performance
+
+without cache, 1m27s, build run, https://github.com/chenrui333/spring-boot-template/actions/runs/2162133074
