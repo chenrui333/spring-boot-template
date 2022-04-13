@@ -19,4 +19,5 @@
 
 without cache, 1m27s, build run, https://github.com/chenrui333/spring-boot-template/actions/runs/2162133074
 with cache, 1m9s, build run, https://github.com/chenrui333/spring-boot-template/runs/6010214055
-with cache, 54s, build run, https://github.com/chenrui333/spring-boot-template/runs/6010214055
+with cache, 54s, build run, https://github.com/chenrui333/spring-boot-template/runs/2162167587
+with cache, 53s, build run, https://github.com/chenrui333/spring-boot-template/runs/2162182351
