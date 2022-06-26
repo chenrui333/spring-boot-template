@@ -3,6 +3,8 @@
 ![CI](https://github.com/chenrui333/spring-boot-template/workflows/ci/badge.svg)
 [![codecov](https://codecov.io/gh/chenrui333/spring-boot-template/branch/main/graph/badge.svg?token=PmeCqKHbTR)](https://codecov.io/gh/chenrui333/spring-boot-template)
 
+Minimal spring-boot microservice template.
+
 
 ## Dependencies
 
