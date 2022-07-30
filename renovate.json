@@ -2,9 +2,6 @@
   "extends": [
     "config:base"
   ],
-  "allowedPostUpgradeCommands": [
-    "./gradlew dependencies --write-locks"
-  ],
   "postUpgradeTasks": {
     "commands": [ "./gradlew dependencies --write-locks" ],
     "fileFilters": [ "gradle.lockfile" ],
