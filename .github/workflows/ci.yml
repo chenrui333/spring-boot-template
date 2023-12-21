@@ -30,7 +30,7 @@ jobs:
           restore-keys: |
             ${{ runner.os }}-gradle-
 
-      - uses: actions/setup-java@v3
+      - uses: actions/setup-java@v4
         with:
           distribution: 'corretto'
           java-version: '17'
@@ -45,7 +45,7 @@ jobs:
           verbose: true # optional (default = false)
 
       - name: Archive test report
-        uses: actions/upload-artifact@v3
+        uses: actions/upload-artifact@v4
         with:
           name: Test report
           path: build/reports/tests/test
