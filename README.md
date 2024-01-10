@@ -8,7 +8,7 @@ Minimal spring-boot microservice template.
 
 ## Dependencies
 
-- Java 17
+- Java 21
 - Gradle 7.3.2
 - Spring Boot 2.6.2
 
