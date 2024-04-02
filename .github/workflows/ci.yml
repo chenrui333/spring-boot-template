@@ -33,7 +33,7 @@ jobs:
       - uses: actions/setup-java@v4
         with:
           distribution: 'corretto'
-          java-version: '22'
+          java-version: '21'
       - name: Run build
         run: |
           ./gradlew clean build
