@@ -1,10 +1,5 @@
 {
   "extends": [
     "config:base"
-  ],
-  "postUpgradeTasks": {
-    "commands": [ "./gradlew dependencies --write-locks" ],
-    "fileFilters": [ "gradle.lockfile" ],
-    "executionMode": "branch"
-  }
+  ]
 }

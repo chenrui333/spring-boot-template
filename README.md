@@ -8,9 +8,9 @@ Minimal spring-boot microservice template.
 
 ## Dependencies
 
-- Java 21
-- Gradle 7.3.2
-- Spring Boot 2.6.2
+- Java 22
+- Gradle 8.9
+- Spring Boot 3
 
 ## How to run and test the app
 
