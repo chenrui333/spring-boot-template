@@ -17,7 +17,7 @@ on:
 jobs:
   build:
     name: build
-    runs-on: ubuntu-22.04
+    runs-on: ubuntu-24.04
     steps:
       - uses: actions/checkout@692973e3d937129bcbf40652eb9f2f61becf3332 # v4
 
@@ -33,7 +33,7 @@ jobs:
       - uses: actions/setup-java@99b8673ff64fbf99d8d325f52d9a5bdedb8483e9 # v4
         with:
           distribution: 'corretto'
-          java-version: '21'
+          java-version: '22'
       - name: Run build
         run: |
           ./gradlew clean build
