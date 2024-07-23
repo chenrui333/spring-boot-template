@@ -1,1 +1,1 @@
-rootProject.name = 'spring-boot-boilerplate'
+rootProject.name = "spring-boot-boilerplate"

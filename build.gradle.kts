@@ -3,6 +3,7 @@ plugins {
     id("org.springframework.boot") version "3.3.2"
     id("io.spring.dependency-management") version "1.1.6"
     id("jacoco")
+    alias(libs.plugins.spotless)
 }
 
 java {
@@ -10,12 +11,16 @@ java {
     targetCompatibility = JavaVersion.VERSION_22
 }
 
-repositories {
-    mavenCentral()
-}
+repositories { mavenCentral() }
 
-dependencyLocking {
-    lockAllConfigurations()
+spotless {
+  java {
+    googleJavaFormat("1.19.2") // in sync with tools
+    importOrder()
+    removeUnusedImports()
+    trimTrailingWhitespace()
+    endWithNewline()
+  }
 }
 
 dependencies {
@@ -46,4 +51,12 @@ tasks.jacocoTestReport {
         html.outputLocation.set(layout.buildDirectory.dir("jacocoHtml"))
     }
     dependsOn(tasks.test)
+}
+
+tasks.named("check") {
+  dependsOn("spotlessCheck")
+}
+
+tasks.named("build") {
+  dependsOn("spotlessApply")
 }
