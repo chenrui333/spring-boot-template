@@ -32,7 +32,8 @@ jobs:
 
       - uses: actions/setup-java@99b8673ff64fbf99d8d325f52d9a5bdedb8483e9 # v4
         with:
-          java-version-file: .tool-versions
+          java-version-file: ".tool-versions"
+          distribution: "corretto"
       - name: Run build
         run: |
           ./gradlew clean build
