@@ -15,7 +15,7 @@ repositories { mavenCentral() }
 
 spotless {
   java {
-    googleJavaFormat("1.19.2") // in sync with tools
+    googleJavaFormat("1.22.0")
     importOrder()
     removeUnusedImports()
     trimTrailingWhitespace()
@@ -53,10 +53,6 @@ tasks.jacocoTestReport {
     dependsOn(tasks.test)
 }
 
-tasks.named("check") {
-  dependsOn("spotlessCheck")
-}
-
-tasks.named("build") {
-  dependsOn("spotlessApply")
+tasks.named("compileJava") {
+    finalizedBy("spotlessCheck", "spotlessApply")
 }
