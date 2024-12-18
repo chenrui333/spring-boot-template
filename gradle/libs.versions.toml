@@ -1,8 +1,8 @@
 # https://docs.gradle.org/current/userguide/platforms.html
 
 [versions]
-springBoot = "3.3.5"
-springDependencyManagement = "1.1.6"
+springBoot = "3.4.1"
+springDependencyManagement = "1.1.7"
 
 [plugins]
 # https://plugins.gradle.org/plugin/org.springframework.boot
@@ -10,4 +10,4 @@ spring-boot = { id = "org.springframework.boot", version.ref = "springBoot" }
 # https://github.com/spring-gradle-plugins/dependency-management-plugin
 spring-dependency-management = { id = "io.spring.dependency-management", version.ref = "springDependencyManagement" }
 # https://github.com/diffplug/spotless
-spotless = { id = "com.diffplug.spotless", version = "6.25.0" }
+spotless = { id = "com.diffplug.spotless", version = "7.0.2" }
