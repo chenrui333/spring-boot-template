@@ -1,0 +1,20 @@
+{
+  extends: [
+    'config:recommended',
+    'schedule:daily',
+  ],
+  commitMessageSuffix: ' in {{packageFile}}',
+  dependencyDashboard: true,
+  automerge: true,
+  automergeStrategy: 'rebase',
+  platformAutomerge: true,
+  labels: [
+    'dependencies',
+  ],
+  vulnerabilityAlerts: {
+    enabled: true,
+    labels: [
+      'security',
+    ],
+  },
+}
