@@ -1,20 +1,30 @@
 {
-  extends: [
-    'config:recommended',
-    'schedule:daily',
+  "extends": [
+    "config:recommended",
+    "schedule:daily"
   ],
-  commitMessageSuffix: ' in {{packageFile}}',
-  dependencyDashboard: true,
-  automerge: true,
-  automergeStrategy: 'rebase',
-  platformAutomerge: true,
-  labels: [
-    'dependencies',
+  "commitMessageSuffix": " in {{packageFile}}",
+  "dependencyDashboard": true,
+  "automerge": true,
+  "automergeStrategy": "rebase",
+  "platformAutomerge": true,
+  "labels": [
+    "dependencies"
   ],
-  vulnerabilityAlerts: {
-    enabled: true,
-    labels: [
-      'security',
-    ],
+  "vulnerabilityAlerts": {
+    "enabled": true,
+    "labels": [
+      "security"
+    ]
   },
+  "packageRules": [
+    {
+      "updateTypes": ["major"],
+      "automerge": false
+    },
+    {
+      "updateTypes": ["patch"],
+      "groupName": "patch updates"
+    }
+  ]
 }
