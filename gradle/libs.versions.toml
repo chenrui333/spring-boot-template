@@ -10,4 +10,4 @@ spring-boot = { id = "org.springframework.boot", version.ref = "springBoot" }
 # https://github.com/spring-gradle-plugins/dependency-management-plugin
 spring-dependency-management = { id = "io.spring.dependency-management", version.ref = "springDependencyManagement" }
 # https://github.com/diffplug/spotless
-spotless = { id = "com.diffplug.spotless", version = "7.2.0" }
+spotless = { id = "com.diffplug.spotless", version = "7.2.1" }
