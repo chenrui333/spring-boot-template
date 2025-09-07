@@ -23,7 +23,13 @@
       "automerge": false
     },
     {
+      "updateTypes": ["minor"],
+      "automerge": true,
+      "groupName": "minor updates"
+    },
+    {
       "updateTypes": ["patch"],
+      "automerge": true,
       "groupName": "patch updates"
     }
   ]
