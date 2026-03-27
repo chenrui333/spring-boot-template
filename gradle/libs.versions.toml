@@ -1,7 +1,7 @@
 # https://docs.gradle.org/current/userguide/platforms.html
 
 [versions]
-springBoot = "3.5.12"
+springBoot = "3.5.13"
 springDependencyManagement = "1.1.7"
 
 [plugins]
