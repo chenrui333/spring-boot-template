@@ -1,13 +1,15 @@
 {
   "extends": [
-    "config:recommended",
+    "config:best-practices",
     "schedule:daily"
   ],
   "commitMessageSuffix": " in {{packageFile}}",
-  "dependencyDashboard": true,
   "automerge": true,
+  "automergeType": "pr",
   "automergeStrategy": "rebase",
-  "platformAutomerge": true,
+  "platformAutomerge": false,
+  "minimumReleaseAge": "2 days",
+  "internalChecksFilter": "strict",
   "labels": [
     "dependencies"
   ],
