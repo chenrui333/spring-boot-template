@@ -6,7 +6,7 @@
   commitMessageSuffix: ' in {{packageFile}}',
   automerge: true,
   automergeType: 'pr',
-  automergeStrategy: 'rebase',
+  automergeStrategy: 'squash',
   platformAutomerge: false,
   minimumReleaseAge: '2 days',
   internalChecksFilter: 'strict',
@@ -24,7 +24,7 @@
       matchUpdateTypes: [
         'major',
       ],
-      automerge: false,
+      automerge: true,
     },
     {
       matchUpdateTypes: [
